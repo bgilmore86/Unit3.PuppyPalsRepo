@@ -5,22 +5,18 @@ import {puppyList} from './data.js'
 
 function App() {
   const [puppies, setPuppies] = useState(puppyList);
-  console.log(puppies);
-  console.log(setPuppies);
+  console.log("puppyList: ", setPuppies);
+
 
   return (
-      <div>
+      <div className="App">
     {
         puppies.map((puppy) => {
-          return <p>{puppy.name}</p>
+          return <p key={puppy.id}>{puppy.name}</p>;
         })
     }
-
         </div>
-     
-    
-    
-  )
-}
+     );
+  }
 
 export default App
