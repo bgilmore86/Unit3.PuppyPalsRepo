@@ -1,0 +1,2 @@
+-Create PuppyPalsRepo and add PuppyPalsVite-Project and all files.
+-Finalize code according to block24A project rubric and guide.
