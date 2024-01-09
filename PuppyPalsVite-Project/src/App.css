@@ -58,6 +58,7 @@
   margin: 5px;
   /* Use padding to create some space inside the elements */
   padding: 5px;
+  color: darkmagenta;
 }
 
 .PupList p:hover {
@@ -68,7 +69,6 @@
 body {
   background-color: lightgreen;
   grid: flex;
-  border: darkgreen;
 }
 
 h1 {
