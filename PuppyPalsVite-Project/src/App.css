@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Added to App.css */
+.PupList {
+  /* Use padding to create the border effect */
+  padding: 10px;
+  /* Use border-radius to round the corners */
+  border-radius: 20px;
+}
+
+.PupList p {
+  /* Use border to create the dark gray border */
+  border: 2px solid darkgray;
+  /* Use border-radius to match the parent element */
+  border-radius: 10px;
+  /* Use margin to create some space between the elements */
+  margin: 5px;
+  /* Use padding to create some space inside the elements */
+  padding: 5px;
+}
+
+.PupList p:hover {
+  /* Use background-color to create the highlight effect when selected */
+  background-color: lightgray;
+}
+
+body {
+  background-color: lightgreen;
+  grid: flex;
+  border: darkgreen;
+}
+
+h1 {
+  text-decoration: underline;
+  color: magenta;
+  text-align: center;
+
+}

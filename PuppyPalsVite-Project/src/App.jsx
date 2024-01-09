@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import './App.css'
 import {puppyList} from './data.js'
+import './App.css'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
 
   return (
     
-      <div>
+      <div className='PupList'>
+        <h1>Your Puppy Pals</h1>
     {
         puppies.map((puppy) => {
           return <p onClick = {()=>{
@@ -31,9 +33,6 @@ function App() {
           </ul>
         </div>
       )}
-    
-  )
-
 </div>
   )}
 
